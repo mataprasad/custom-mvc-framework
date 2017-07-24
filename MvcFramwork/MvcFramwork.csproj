@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomRouting.cs" />
     <Compile Include="ModelBinding\DefaultModelBinder.cs" />
     <Compile Include="MVC\INeoActionResult.cs" />
     <Compile Include="MVC\NeoActionVerb.cs" />
@@ -55,13 +54,8 @@
     <Compile Include="MVC\NeoViewEngine.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MyCustomController.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Routing\NeoRouteHandler.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,11 +13,10 @@
 </head>
 <body>
     <div>
-        <h1><%=System.Web.HttpContext.Current.Items["Name"] %></h1>
         <table>
             <%for (int i = 0; i < model.Count; i++)
               {
-                  System.Web.UI.WebControls.ListItem item = model[i] as System.Web.UI.WebControls.ListItem;
+                  ListItem item = model[i] as ListItem;
             %>
             <tr>
                 <td>
